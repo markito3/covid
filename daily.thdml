@@ -1,0 +1,9 @@
+<time_history_data>
+  <input_data file="/home/marki/git/covid/nnew_daily.tmp"/>
+  <columns>
+    <column name="date" position="1"/>
+    <column name="cases" position="2"/>
+    <column name="cases average" position="3"/>
+    <column name="time" position="4"/>
+  </columns>
+</time_history_data>

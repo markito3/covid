@@ -28,7 +28,7 @@ for line in lines:
         cases_week += cases_list[i]
     cases_average = cases_week/7
     #print("date", date, "unixtime", unixtime, "cases", cases, "cases today", cases_today, "cases 7-day average", cases_average, "deaths", deaths, "deaths today", deaths_today)
-    print (date + ',' + str(cases_today) + ',' + str(cases_average))
+    print (date + ',' + str(cases_today) + ',' + str(cases_average) + ',' + str(unixtime))
     cases_previous = cases
     deaths_previous = deaths
 
